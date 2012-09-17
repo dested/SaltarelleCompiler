@@ -3,6 +3,9 @@
 //!
 
 (function () {
+    if(!window) {
+        window = globals;
+    }
   var globals = {
     version: '0.7.4.0',
 
