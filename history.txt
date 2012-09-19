@@ -1,3 +1,8 @@
+1.3.0
+Support empty ScriptName for NamedValues enum.
+Added MinValue/MaxValue members to integer types.
+Added members necessary to compile iterator blocks returning IEnumerable.
+Fixed internal error when inheriting from generic type.
 Added conditions to project imports to work with NuGet package restore.
 Fixed problem invoking method on a class decorated with a [MixinAttribute].
 Fixed compilation of expression lambda containing a single property assignment.
